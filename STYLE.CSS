@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans Tamil', 'Arial', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 15px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo img {
+  width: 80px;
+  height: auto;
+}
+
+.logo h1 {
+  margin-top: 10px;
+  font-size: 22px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  background-color: #0055a5;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+nav ul li a:hover {
+  background-color: #004080;
+}
+
+main {
+  padding: 20px;
+}
+
+.announcement {
+  background-color: #fff9e6;
+  border: 1px solid #ffd966;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.announcement h2 {
+  color: #cc7a00;
+  margin-bottom: 10px;
+}
+
+.announcement ul li {
+  margin-bottom: 8px;
+}
+
+.info {
+  background-color: #e6f2ff;
+  padding: 15px;
+  border-left: 5px solid #3399ff;
+}
+
+.info h2 {
+  color: #0055a5;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  background-color: #003366;
+  color: white;
+  padding: 10px 0;
+  margin-top: 20px;
+}
